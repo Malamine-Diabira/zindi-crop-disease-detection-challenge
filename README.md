@@ -13,7 +13,7 @@ Le défi consiste à **développer des modèles d'apprentissage automatique** qu
 - **Généraliser** : Les modèles doivent être capables de bien performer sur des maladies qui n'étaient pas présentes dans l'ensemble d'entraînement. Cela nécessite une certaine robustesse et capacité d'adaptation.
 - **Efficacité sur des appareils mobiles** : La plupart des agriculteurs utilisent des smartphones d'entrée de gamme. Par conséquent, les modèles doivent être optimisés pour fonctionner efficacement sur ces appareils, tant en termes de performance que de consommation de ressources.
 
-### 4. **Défis Techniques**
+### 4. **Défis Techniques**  
 - **Qualité des données** : Les données d'images peuvent varier en qualité (résolution, éclairage) et en quantité, ce qui peut influencer la capacité du modèle à apprendre efficacement.
 - **Variabilité des symptômes** : Les symptômes de maladies peuvent être similaires, ce qui complique la classification. Les agriculteurs peuvent également utiliser des méthodes de culture variées qui peuvent affecter l'apparence des plantes.
 - **Accès à des technologies avancées** : Les agriculteurs dans les zones rurales peuvent ne pas avoir accès à des smartphones puissants, ce qui limite l'utilisation de modèles complexes.
@@ -30,3 +30,6 @@ Pour répondre à ces défis, la compétition encourage les participants à :
 - **Innovation locale** : Encourager les solutions basées sur l'IA développées localement favorise l'innovation et l'autonomisation des communautés agricoles.
 
 En résumé, le problème que cette compétition vise à résoudre est complexe et multidimensionnel, alliant des éléments techniques d'apprentissage automatique à des enjeux sociaux et économiques. L'utilisation de l'IA pour détecter les maladies des cultures représente une approche prometteuse pour soutenir les agriculteurs dans leur lutte contre les pertes de rendement dues aux maladies et aux ravageurs. Si tu as des questions sur un aspect particulier ou si tu souhaites explorer un sujet plus en détail, fais-le moi savoir !
+
+### 7. **Projets Similaires**
+https://www.kaggle.com/code/imtkaggleteam/plant-diseases-detection-pytorch
