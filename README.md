@@ -33,3 +33,7 @@ En résumé, le problème que cette compétition vise à résoudre est complexe 
 
 ### 7. **Projets Similaires**
 https://www.kaggle.com/code/imtkaggleteam/plant-diseases-detection-pytorch
+
+### 8. **Ressources**
+https://www.youtube.com/watch?v=a5z_J2oBH0k
+
