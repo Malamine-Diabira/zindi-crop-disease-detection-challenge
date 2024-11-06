@@ -36,4 +36,5 @@ https://www.kaggle.com/code/imtkaggleteam/plant-diseases-detection-pytorch
 
 ### 8. **Ressources**
 https://www.youtube.com/watch?v=a5z_J2oBH0k
+https://www.youtube.com/watch?v=dA4pVGQ1isk   faster r-cnn object detection tensorflow
 
