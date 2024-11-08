@@ -13,6 +13,7 @@ Le défi consiste à **développer des modèles d'apprentissage automatique** qu
 - **Généraliser** : Les modèles doivent être capables de bien performer sur des maladies qui n'étaient pas présentes dans l'ensemble d'entraînement. Cela nécessite une certaine robustesse et capacité d'adaptation.
 - **Efficacité sur des appareils mobiles** : La plupart des agriculteurs utilisent des smartphones d'entrée de gamme. Par conséquent, les modèles doivent être optimisés pour fonctionner efficacement sur ces appareils, tant en termes de performance que de consommation de ressources.
 
+
 ### 4. **Défis Techniques**  
 - **Qualité des données** : Les données d'images peuvent varier en qualité (résolution, éclairage) et en quantité, ce qui peut influencer la capacité du modèle à apprendre efficacement.
 - **Variabilité des symptômes** : Les symptômes de maladies peuvent être similaires, ce qui complique la classification. Les agriculteurs peuvent également utiliser des méthodes de culture variées qui peuvent affecter l'apparence des plantes.
@@ -23,6 +24,20 @@ Pour répondre à ces défis, la compétition encourage les participants à :
 - Utiliser des **techniques d'apprentissage automatique** pour traiter des ensembles de données d'images.
 - Développer des **modèles légers** qui peuvent fonctionner sur des smartphones avec des ressources limitées.
 - Incorporer des **techniques de transfert d'apprentissage** pour améliorer la performance sur des maladies moins représentées.
+
+
+### 5.1 **Suggestions d’optimisation**
+Traitement des classes déséquilibrées :
+Techniques de rééchantillonnage : Appliquer un suréchantillonnage pour les classes rares ou un sous-échantillonnage pour les classes fréquentes pour équilibrer le dataset. Des techniques comme SMOTE (Synthetic Minority Over-sampling Technique) peuvent également générer des exemples synthétiques pour les classes minoritaires.
+Pondération des classes dans la fonction de perte : En modifiant la fonction de perte pour attribuer un poids plus élevé aux classes rares, le modèle accorde plus d'importance aux maladies moins fréquentes.
+Augmentation des données :
+Appliquer une augmentation d'image spécifique à la tâche (rotation, recadrage, zoom, etc.) pour enrichir les données d'entraînement et améliorer la généralisation. Cette étape est cruciale pour réduire le surapprentissage, surtout dans les classes sous-représentées.
+Choix d'un modèle plus léger et efficace :
+Utiliser un modèle pré-entraîné comme MobileNet ou EfficientNet, qui est optimisé pour fonctionner sur des ressources GPU limitées (comme vous l’avez mentionné pour ce projet). Ces architectures sont légères tout en offrant de bonnes performances en classification d'image.
+Hyperparameter Tuning :
+Utiliser des techniques comme Grid Search ou Random Search pour optimiser les hyperparamètres. Pour les tâches à ressources limitées, Optuna est aussi un excellent choix, car il optimise intelligemment les hyperparamètres en se basant sur les résultats précédents.
+Transfer Learning avec des modèles pré-entraînés :
+Utiliser des poids pré-entraînés sur des datasets similaires (comme PlantVillage) peut améliorer la précision de détection des maladies. En ajustant les dernières couches pour votre dataset spécifique, vous pouvez bénéficier de connaissances transférables.
 
 ### 6. **Implications et Importance**
 - **Amélioration de la productivité agricole** : Une détection rapide et précise des maladies peut aider les agriculteurs à agir rapidement, réduisant ainsi les pertes de rendement.
