@@ -54,3 +54,4 @@ https://www.youtube.com/watch?v=a5z_J2oBH0k
 https://www.youtube.com/watch?v=dA4pVGQ1isk   faster r-cnn object detection tensorflow
 https://www.youtube.com/watch?v=XQnVjc-B9i4    Introduction to Colab Enterprise on Vertex AI
 
+https://www.youtube.com/watch?v=PwYHoiB4Fag  TPU VM on Google Cloud
