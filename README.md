@@ -56,6 +56,7 @@ https://www.youtube.com/watch?v=XQnVjc-B9i4    Introduction to Colab Enterprise 
 
 https://www.youtube.com/watch?v=PwYHoiB4Fag  TPU VM on Google Cloud
 https://www.youtube.com/watch?v=utxbUlo9CyY   DETR - End to end object detection with transformers (ECCV2020)
+https://www.youtube.com/watch?v=T35ba_VXkMY  DETR: End-to-End Object Detection with Transformers (Paper Explained)
 https://www.youtube.com/watch?v=AM8D4j9KoaU   How to Train DETR Object Detection Transformer on Custom Dataset
 https://www.youtube.com/watch?v=1d4BzR_7Nbc   Deploying production ML models with TensorFlow Serving overview
 Guide To Transfer Learning in Deep Learning
