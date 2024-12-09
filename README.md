@@ -50,15 +50,24 @@ En résumé, le problème que cette compétition vise à résoudre est complexe 
 https://www.kaggle.com/code/imtkaggleteam/plant-diseases-detection-pytorch
 
 ### 8. **Ressources**
+https://www.youtube.com/watch?v=KpbS_GZQ1FI     GPUs For Machine Learning - How To Use Them For Free
+
 https://www.youtube.com/watch?v=a5z_J2oBH0k
 https://www.youtube.com/watch?v=dA4pVGQ1isk   faster r-cnn object detection tensorflow
+
 https://www.youtube.com/watch?v=XQnVjc-B9i4    Introduction to Colab Enterprise on Vertex AI
 
+
 https://www.youtube.com/watch?v=PwYHoiB4Fag  TPU VM on Google Cloud
+
 https://www.youtube.com/watch?v=utxbUlo9CyY   DETR - End to end object detection with transformers (ECCV2020)
+
 https://www.youtube.com/watch?v=T35ba_VXkMY  DETR: End-to-End Object Detection with Transformers (Paper Explained)
+
 https://www.youtube.com/watch?v=AM8D4j9KoaU   How to Train DETR Object Detection Transformer on Custom Dataset
+
 https://www.youtube.com/watch?v=1d4BzR_7Nbc   Deploying production ML models with TensorFlow Serving overview
+
 Guide To Transfer Learning in Deep Learning
 https://medium.com/@davidfagb/guide-to-transfer-learning-in-deep-learning-1f685db1fc94#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjFkYzBmMTcyZThkNmVmMzgyZDZkM2EyMzFmNmMxOTdkZDY4Y2U1ZWYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIyMTYyOTYwMzU4MzQtazFrNnFlMDYwczJ0cDJhMmphbTRsamRjbXMwMHN0dGcuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDAyODA4MjQ1NjcwMjcxNDAyMDciLCJlbWFpbCI6ImRpYWJpcmEubWFsYW1pbmUxMUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzMxOTcxMjg5LCJuYW1lIjoiTWFsYW1pbmUgRGlhYmlyYSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NKU3o0ckJLQi1Mc3RsXzZZMFVJbHJnSHIxbUlqSHV4aVd5WTBkMWhyWnZVd3IwN2c9czk2LWMiLCJnaXZlbl9uYW1lIjoiTWFsYW1pbmUiLCJmYW1pbHlfbmFtZSI6IkRpYWJpcmEiLCJpYXQiOjE3MzE5NzE1ODksImV4cCI6MTczMTk3NTE4OSwianRpIjoiNDUxOWEwNmJhNTE2ZjUyZjE0MzM0YTA0M2JiZTZkODAxYmU2NmJjMCJ9.qLOWcGKBx7WPq8RQPInES4E2HVgotubjykYm1hDZyf84eMkKWgp_mCOL6G9452aXJ5iYAR2HyB0g9H1JfsqnEPZNOAT6JQSlaiRgjdnS6arTUEJrlE2WLAPF_YuaX0r6u7BAkYYeq5dHT2-fSUUEWbf-EIZLs55giCJ7tG-Kk8QNfNo5-V6arvRgPleHSFMUGI_AVgIovoUX-4UziFFuWrXvovjAf32ExlcrAeSouSLJ1orqhyxZfYGCF3zqhPeFVdjeibqrVsroAXQuDyvhxq3guJDmS4-3L5SOFBSZ03DlEhKOXtUv61Tms5PT115V0yBRgk-WIKku56ydm0NKiQ
 
