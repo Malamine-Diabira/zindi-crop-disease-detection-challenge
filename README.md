@@ -33,7 +33,7 @@ Pondération des classes dans la fonction de perte : En modifiant la fonction de
 Augmentation des données :
 Appliquer une augmentation d'image spécifique à la tâche (rotation, recadrage, zoom, etc.) pour enrichir les données d'entraînement et améliorer la généralisation. Cette étape est cruciale pour réduire le surapprentissage, surtout dans les classes sous-représentées.
 Choix d'un modèle plus léger et efficace :
-Utiliser un modèle pré-entraîné comme MobileNet ou EfficientNet, qui est optimisé pour fonctionner sur des ressources GPU limitées (comme vous l’avez mentionné pour ce projet). Ces architectures sont légères tout en offrant de bonnes performances en classification d'image.
+Utiliser un modèle pré-entraîné comme MobileNet ou EfficientNet, qui est optimisé pour fonctionner sur des ressources GPU limitées . Ces architectures sont légères tout en offrant de bonnes performances en classification d'image.
 Hyperparameter Tuning :
 Utiliser des techniques comme Grid Search ou Random Search pour optimiser les hyperparamètres. Pour les tâches à ressources limitées, Optuna est aussi un excellent choix, car il optimise intelligemment les hyperparamètres en se basant sur les résultats précédents.
 Transfer Learning avec des modèles pré-entraînés :
@@ -49,7 +49,31 @@ En résumé, le problème que cette compétition vise à résoudre est complexe 
 ### 7. **Projets Similaires**
 https://www.kaggle.com/code/imtkaggleteam/plant-diseases-detection-pytorch
 
-### 8. **Ressources**
+
+### 8.1. **Stratégie d'économie du GPU lors de l'entrainement ou du prétraitement**
+Dans le contexte du traitement d'images et de l'apprentissage automatique, l'utilisation d'un GPU (Graphics Processing Unit) est particulièrement bénéfique, voire indispensable, lors de la phase d'entraînement des modèles. Voici pourquoi :
+
+Entraînement :
+
+Calculs parallèles massifs : L'entraînement d'un modèle de Deep Learning, notamment pour la vision par ordinateur, implique d'énormes quantités de calculs matriciels. Les GPUs excellent dans ce domaine grâce à leur architecture massivement parallèle, qui leur permet d'effectuer ces calculs bien plus rapidement que les CPUs.
+Accélération significative : L'utilisation d'un GPU peut réduire considérablement le temps d'entraînement, parfois de plusieurs heures à quelques minutes, en fonction de la complexité du modèle et de la taille du jeu de données.
+Manipulation efficace des images : Les GPUs sont conçus pour traiter les images et les données graphiques de manière très efficace, ce qui est idéal pour les tâches de vision par ordinateur.
+Prétraitement :
+
+Charge de calcul variable : Le prétraitement des images peut impliquer des opérations plus ou moins gourmandes en calculs, comme le redimensionnement, la normalisation, l'augmentation des données, etc.
+CPU souvent suffisant : Pour des tâches de prétraitement simples et des jeux de données de taille modérée, un CPU peut être suffisant.
+GPU pour des tâches complexes : Si le prétraitement implique des opérations complexes ou un très grand nombre d'images, l'utilisation d'un GPU peut accélérer le processus.
+En résumé :
+
+L'entraînement est l'étape la plus gourmande en calculs, et c'est là que l'utilisation d'un GPU est quasi indispensable pour les modèles de Deep Learning, en particulier pour la vision par ordinateur.
+Le prétraitement peut bénéficier d'un GPU, mais ce n'est pas toujours nécessaire, sauf si les opérations sont très complexes ou le jeu de données très volumineux.
+Exemples concrets où un GPU est crucial :
+
+Entraînement de réseaux de neurones convolutifs (CNN) pour la classification d'images, la détection d'objets, la segmentation, etc.
+Entraînement de modèles de Deep Learning avec des jeux de données massifs.
+Application de techniques d'augmentation de données complexes en temps réel pendant l'entraînement.
+
+### 8.2. **Ressources**
 https://www.youtube.com/watch?v=KpbS_GZQ1FI     GPUs For Machine Learning - How To Use Them For Free
 
 https://www.youtube.com/watch?v=a5z_J2oBH0k
